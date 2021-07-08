@@ -21,4 +21,4 @@ Project is created with:
 
 ## Live
 
-Soon...
+You can check how this site looks right now! [Click! (netlify hosted)](https://trusting-franklin-465010.netlify.app/)
