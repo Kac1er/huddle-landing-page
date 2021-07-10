@@ -1,0 +1,15 @@
+@mixin centerFlex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@mixin ctaButton {
+	padding: 1.5em 4em;
+	background-color: $pink;
+	color: $white;
+	font-weight: 700;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
