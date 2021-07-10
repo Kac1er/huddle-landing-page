@@ -334,6 +334,12 @@ body {
   color: white;
   text-decoration: none;
   font-size: 1.4rem;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.footer__box-nav-list-item a:hover {
+  opacity: 0.7;
 }
 
 .footer__box-social {
@@ -356,6 +362,13 @@ body {
   border: 1px solid white;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer__box-social-icons-icon:hover {
+  color: #00252e;
+  background-color: white;
 }
 
 .footer__logo img {

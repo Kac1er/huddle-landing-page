@@ -198,10 +198,16 @@ body {
 
 				&-item {
 					margin: 1em 0;
+
 					a {
 						color: $white;
 						text-decoration: none;
 						font-size: 1.4rem;
+						transition: opacity 0.3s;
+
+						&:hover {
+							opacity: 0.7;
+						}
 					}
 				}
 			}
@@ -218,6 +224,12 @@ body {
 					border: 1px solid $white;
 					border-radius: 50%;
 					cursor: pointer;
+					transition: background-color 0.3s, color 0.3s;
+
+					&:hover {
+						color: $dark-cyan;
+						background-color: $white;
+					}
 				}
 			}
 		}
@@ -377,20 +389,17 @@ body {
 					padding-top: 1em;
 					img {
 						align-self: flex-start;
-						
 					}
 				}
-			
+
 				&-item {
 					margin: 2em 0;
 
-				
 					&-text {
 						max-width: 400px;
 						line-height: 2em;
 					}
 				}
-			
 			}
 
 			&-nav {
@@ -416,6 +425,5 @@ body {
 			bottom: 100px;
 			right: 100px;
 		}
-	
 	}
 }
